@@ -114,7 +114,7 @@ async function handler(ctx) {
 
     const username = ctx.req.param('username');
     let routeParams = ctx.req.param('routeParams');
-    let showLinkPreview = true;
+    let showLinkPreview = false;
     let showViaBot = true;
     let showReplyTo = true;
     let showFwdFrom = true;
